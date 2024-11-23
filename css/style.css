@@ -1,0 +1,221 @@
+/* Common Codes */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    line-height: 1.7rem;
+    font-family: "Source Sans 3", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Global CSS */
+/*Section  Title */
+.section-title h4{
+    font-size: 14px;
+    line-height: 1.7rem;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.section-title h1{
+   font-weight: 600;
+}
+
+
+/* Header Area */
+.header-area{
+    background-image: url(../images/full-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+                     
+}
+.header-area .navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+    margin-left: 25px; 
+    font-size: 16px;
+}
+.header-area .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url("../images/menu-hover.png") center bottom no-repeat;
+    background-size: auto;
+}
+.header-area .navbar-expand-lg .navbar-nav .nav-link.active{
+    background: url("../images/menu-hover.png") center bottom no-repeat;
+    background-size: auto;
+}
+/* Banner Area */
+.banner-content {
+	padding: 110px 0;
+	margin: 35px 0;
+    width: 80%;
+}
+.banner-content h4 {
+	font-size: 16px;
+	color: #008ed6;
+	text-transform: uppercase;
+}
+.banner-content h1 {
+	font-size: 48px;
+	line-height: 58px;
+	color: #fff;
+	padding: 20px 0;
+}
+.banner-content p{
+    color: #999999;
+    margin-bottom: 20px;
+}
+.button-group a{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.button-group .btn-outline-primary{
+    margin-left: 15px;
+    padding: 10px 25px;
+    border-color: #454449;
+    transition: .5s ease-in;
+}
+.btn.btn-primary {
+	padding: 10px 25px;
+    transition: .5s ease-in;
+}
+.btn.btn-primary:hover{
+    border: 1px solid #454449;
+    background: transparent;
+}
+
+/* Feature Section */
+.feature-area{
+    padding: 60px 0;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+}
+.feature-area .section-title {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.single-feature {
+	text-align: center;
+	width: 90%;
+	padding: 20px 20px 0;
+}
+.single-feature i {
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 100%;
+	font-size: 28px;
+    color: #008ed6;
+}
+.single-feature h4{
+    padding: 30px 0 10px;
+    text-transform: capitalize;
+}
+.single-feature p{
+    color: #999999;
+}
+
+/* About Section */
+.about-area{
+    padding: 80px 0;
+}
+.about-content {
+	width: 80%;
+	/* padding: 40px 40px 0 0; */
+	padding: 48px 38px 0;
+}
+.about-content p {
+	padding: 15px 0;
+	margin: 0;
+    color: #999999;
+}
+.about-content .about-bottom a{
+    display: block;
+    color: #000;
+}
+.about-content .about-bottom img{
+    height: 13px;
+    width: 13px;
+    margin-right: 10px;
+}
+.about-img{
+    text-align: right;
+    width: 95%;
+}
+/* Another About section (Details area)*/
+.details-area{
+    background-color:#f2f2f2 ;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.details {
+	padding: 45px 25px 0;
+	margin-top: 30px;
+}
+.details p{
+    padding: 15px 0;
+}
+
+/* Testimonial Area */
+.testimonial-area{
+    padding: 60px 0;
+    background-image: url(../images/testimonial.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonial-area .section-title{
+    text-align: center;
+}
+.testimonial-area .section-title h1{
+    color: #fff;
+}
+.single-testimonial {
+	color: #fff;
+	width: 80%;
+	padding: 50px 0;
+}
+.single-testimonial p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+.testimonial-profile span{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.testimonial-profile p{
+   margin: 0;
+   font-size: 14px;
+   line-height: 1.7rem;
+}
+.testimonial-profile .row{
+    align-items: center;
+}
+/* call-to-action Section */
+.call-to-action {
+	background-color: #000;
+	padding: 50px 0;
+}
+.call-to-action .call-to-action-content h4{
+    color: #fff;
+    font-weight: 700;
+}
+.call-to-action .call-to-action-content span{
+    font-weight: 300;
+}
+.call-to-action-content .row{
+    align-items: center;
+}
